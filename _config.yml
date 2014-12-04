@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               Tyler Simko
 tagline:             'A new adventure.'
-description:         'Made by<a href="https://twitter.com/tylersimko" target="_blank">@tylersimko</a>.'
+description:         'Made by <a href="https://twitter.com/tylersimko" target="_blank">@tylersimko</a>.'
 url:                 http://tylersimko.github.io
 baseurl:             /
 paginate:            5
