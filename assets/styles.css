@@ -27,7 +27,7 @@ b, strong { font-weight: 600 }
 i, em { font-style: italic }
 
 a {
-    color: #eb2344;
+    color: #c0392b;
     text-decoration: none; }
 
 a:hover, a:active, a:visited { opacity: 0.65 }
@@ -292,7 +292,7 @@ body > header {
 
                 body > header nav ul li a:hover {
                     position: relative;
-                    color: #eb2344;
+                    color: #c0392b;
                     opacity: 1; }
 
                 body > header nav ul li a:hover:after {
@@ -356,9 +356,40 @@ body > header {
         opacity: 1; }
 
     .content article header .excerpt h1 {
+		  text-align: center;
+		  font-size: 75px;
         color: white;
-        padding: 15px 0 4px; }
+		  padding: 15px 0 14px;
+	 }
 
+    .content article header .excerpt p {
+		  text-align: center;
+		  font-size: 30px;
+        color: white;
+ }
+
+
+.social {
+	text-align:center
+}
+
+.social {
+	font-size: 32px;
+	text-decoration: none;
+	list-style-type: none;
+	color: #1abc9c; 
+	padding-bottom: 100px;
+}
+
+.social a {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #ecf0f1;
+}
+
+.social > a:hover {
+	color: #c0392b; 
+}
         .content article header .excerpt h1 a { color: white }
 
     .content article header .excerpt p { margin: 10px 0 }
@@ -366,7 +397,6 @@ body > header {
     .content article header .excerpt .meta { font-size: 0.875rem }
 
 .content article header:hover .excerpt {
-    opacity: 0.65;
     -webkit-transform: translate3d(0, 12px, 0);
     -moz-transform: translate3d(0, 12px, 0);
     -o-transform: translate3d(0, 12px, 0);
