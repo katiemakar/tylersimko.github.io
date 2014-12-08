@@ -70,16 +70,6 @@ A third-party **comment system powered by Disqus** comes with the theme — just
 
 Embedding pieces of code every now and then is essential. Fortunately *Hashtag for Jekyll* supports syntax highlighting by default.
 
-{% highlight ruby %}
-
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-
-{% endhighlight %}
-
 ### Much More
 
 Those features above are just the tip of the iceberg and there's much more included. 
