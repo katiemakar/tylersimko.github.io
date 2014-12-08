@@ -376,6 +376,13 @@ body > header {
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out; }
 
+.main-title h1 {
+
+    font-size: 200%;
+    margin: auto;
+
+}
+
 .content article header .scroll {
     display: none;
     position: absolute;
@@ -397,7 +404,7 @@ body > header {
 
     .content article .body .more:active { background-position: -6px -10px }
 
-    .content article .body .summary { padding-bottom: 34px; }
+    .content article .body .summary { padding-bottom: 15px; }
 
         .content article .body .summary:last-of-type { padding-bottom: 0; }
 

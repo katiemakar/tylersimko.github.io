@@ -1,11 +1,10 @@
 ---
 
 layout:			default
-title:  		About this Theme
+title:  		About Me
 type:			page
 navigation: 	true
 
-date:   		2014-05-08
 excerpt: 		Don't let yourself be fooled by the <b>minimal and tidy overall appearance</b> of this theme — <i>you might be surprised what's included</i>.
 gradient: 		2
 image: 			header-2.jpg
