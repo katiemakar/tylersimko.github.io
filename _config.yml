@@ -1,26 +1,21 @@
-# Dependencies
-markdown:            redcarpet
-highlighter:         pygments
+# Site Settings
+baseurl: 		""
+title: 			Tyler Simko's Blog
 
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+name: 			Hashtag <i>for</i> Jekyll
+description: 	A beautifully contemporary and elegant Jekyll theme
+url: 			"http://tylersimko.github.io"
 
-# Setup
-title:               Tyler Simko
-tagline:             'A new adventure.'
-description:         'Made by <a href="https://twitter.com/tylersimko" target="_blank">@tylersimko</a>.'
-url:                 http://tylersimko.github.io
-baseurl:             /
-paginate:            5
+paginate: 		3
+paginate_path: 	"blog/page:num"
 
-# About/contact
-author:
-  name:              Tyler Simko
-  url:               https://twitter.com/tylersimko
-  email:             tyler@o8labs.com
+twitter: 		tylersimko
+email: 			tyler@o8labs.com
 
-# Custom vars
-version:             1.0.0
+disqus: 		your_disqus_shortname
+analytics: 		UA-XXXXXXX-Y
+
+copyright: 		Copyright 2014 Indiqo.	
+
+# Build Settings
+permalinks: 	pretty
