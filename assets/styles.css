@@ -368,12 +368,8 @@ body > header {
         color: white;
  }
 
-
 .social {
-	text-align:center
-}
-
-.social {
+	text-align: center;
 	font-size: 32px;
 	text-decoration: none;
 	list-style-type: none;
@@ -781,8 +777,31 @@ code { padding: 3px 6px; }
         .content article footer .author ul li { margin-right: 6px }
 
     .content article footer .share { width: 122px }
+	
+	    .content article header .excerpt h1 {
+		  text-align: center;
+		  font-size: 55px;
+        color: white;
+		  padding: 15px 0 14px;
+	 }
+
+    .content article header .excerpt p {
+		  text-align: center;
+		  font-size: 20px;
+        color: white;
+ }
+
+.social {
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+	list-style-type: none;
+	color: #1abc9c; 
+	padding-bottom: 70px;
+}
 
 }
+	
 
 @media only screen and (max-width: 412px) { 
 
